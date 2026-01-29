@@ -303,7 +303,7 @@ export default function App() {
               >
                 <div className="flex items-center gap-3 mb-5 pb-3 border-b border-gray-700">
                   <Code className="text-blue-300" size={28} />
-                  <h2 className="text-2xl font-extrabold text-blue-300">Technical Expertise</h2>
+                  <h2 className="text-2xl font-extrabold text-blue-300">Technical Skills</h2>
                 </div>
                 <div className="space-y-4">
                   {skills.slice(0, 4).map((skill, i) => {
