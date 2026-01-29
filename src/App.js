@@ -44,8 +44,8 @@ export default function App() {
   ];
 
   const extracurriculars = [
-    { name: 'Vice-President of Investments (FinTech Club)', period: 'Oct. 2025 - Present', icon: TrendingUp },
-    { name: 'Quantitative Researcher (Quant Finance Club)', period: 'Jan. 2026 - Present', icon: Code },
+    { name: 'Vice-President of Investments (Fintech Club)', period: 'Oct. 2025 - Present', icon: TrendingUp },
+    { name: 'Junior Executive (Quant Finance Club)', period: 'Jan. 2026 - Present', icon: Code },
     { name: 'Quantitative Analyst (Stocks Club)', period: 'Sept. 2025 - Dec. 2025', icon: BarChart3 }
   ];
 
