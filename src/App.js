@@ -124,7 +124,7 @@ export default function App() {
   const stats = [
     { label: 'Projects Completed', value: 10, suffix: '+' },
     { label: 'Lines of Code', value: 27000, suffix: '+' },
-    { label: 'Technologies Mastered', value: 8, suffix: '+' },
+    { label: 'Hackathons/Datathons', value: 8, suffix: '+' },
     { label: 'GitHub Repositories', value: 15, suffix: '+' }
   ];
 
