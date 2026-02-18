@@ -78,13 +78,13 @@ export default function App() {
       achievements: ['Generated 15+ market analysis reports', 'Built predictive models with 85% accuracy', 'Presented strategies to C-suite executives']
     },
     { 
-      company: 'Canada Learning Code', 
-      role: 'Coding Instructor', 
+      company: 'Royal Bank of Canada (RBC)', 
+      role: 'Technology Intern', 
       period: 'September 2021 - August 2024',
       location: 'Toronto, Ontario, Canada',
-      description: '• I led 90+ workshops in HTML, CSS, Python, and Scratch for 200+ youth (ages 8–14), to promote digital literacy across the GTA. • Organized 24/7 technical support and live mentorship chats during ~30 tutorial sessions, leading to a 25% drop in learning errors.',
-      tech: ['Python', 'JavaScript', 'Scratch', 'HTML/CSS'],
-      achievements: ['Taught 200+ students', 'Developed custom curriculum', '4.81/5 student satisfaction rating']
+      description: '• I led 90+ coding workshops in HTML, CSS, Python, and Java for ~800 youth (ages 8–14), to promote digital literacy in the GTA. • Provided 24/7 technical support and live code reviews at 40+ training sessions, using GitHub Enterprise and Azure DevOps. •  Collaborated with Canada Learning Code (CLC) to monitor their financial data systems, cloud infrastructure, and CI/CD pipelines.',
+      tech: ['Python', 'Java', 'HTML/CSS'],
+      achievements: ['Monitored 6 different financial databases', 'Developed a customized curriculum', '4.81/5 student satisfaction rating']
     }
   ];
 
