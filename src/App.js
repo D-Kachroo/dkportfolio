@@ -91,7 +91,7 @@ export default function App() {
   const projects = [
     { 
       name: 'QuantETF Advisor', 
-      tech: ['React', 'Node.js', 'MongoDB', 'Chart.js', 'Alpha Vantage API'],
+      tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
       description: 'AI-powered ETF recommendation platform using quantitative analysis and machine learning to suggest optimal portfolio allocations based on risk tolerance and investment goals.',
       link: 'https://quant-etf-advisor.streamlit.app/',
       github: 'https://github.com/D-Kachroo/ETF-Portfolio-Advisor',
