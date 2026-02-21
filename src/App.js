@@ -237,7 +237,7 @@ export default function App() {
                 >
                   <div
                     className={`text-[28px] font-extrabold text-gray-100 mb-1 ${animateStats ? 'animate-pulse' : ''}`}
-                    style={{ textShadow: '0 0 1px rgba(255,255,255,0.25)' }} // added: subtle neon glow
+                    style={{ textShadow: '0 0 14px rgba(255,255,255,0.10)' }} // added: subtle neon glow
                   >
                     {stat.value.toLocaleString()}{stat.suffix}
                   </div>
