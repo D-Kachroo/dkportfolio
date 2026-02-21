@@ -233,9 +233,12 @@ export default function App() {
                 <div
                   key={i}
                   className="bg-gray-800 border border-gray-700 rounded-xl p-5 text-center transition-all hover:scale-105"
-                  style={{ boxShadow: '0 0 20px rgba(34,197,94,0.12)' }}
+                  style={{ boxShadow: '0 0 20px rgba(255,255,255,0.12)' }} // changed: green → white glow
                 >
-                  <div className={`text-[28px] font-extrabold text-green-400 mb-1 ${animateStats ? 'animate-pulse' : ''}`}>
+                  <div
+                    className={`text-[28px] font-extrabold text-gray-100 mb-1 ${animateStats ? 'animate-pulse' : ''}`}
+                    style={{ textShadow: '0 0 14px rgba(255,255,255,0.25)' }} // added: subtle neon glow
+                  >
                     {stat.value.toLocaleString()}{stat.suffix}
                   </div>
                   <div className="text-sm text-gray-400">{stat.label}</div>
