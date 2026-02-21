@@ -29,7 +29,7 @@ export default function App() {
       school: 'University of Waterloo', 
       degree: 'Bachelor of Computer Science & Finance (CFM)', 
       year: '2025-2030', 
-      gpa: '3.7/4.0',
+      gpa: '3.75/4.0',
       location: 'Waterloo, ON',
       achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design & Data Abstraction']
     },
