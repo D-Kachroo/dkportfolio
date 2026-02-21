@@ -232,15 +232,36 @@ export default function App() {
               {stats.map((stat, i) => (
                 <div
                   key={i}
-                  className="bg-gray-800 border border-gray-700 rounded-xl p-5 text-center transition-all hover:scale-105"
-                  style={{ boxShadow: '0 0 20px rgba(255,255,255,0.12)' }} // changed: green → white glow
+                  className="
+                    bg-gray-800
+                    border border-gray-700
+                    rounded-xl
+                    p-5
+                    text-center
+                    transition-all
+                    duration-200
+                    hover:scale-105
+                    hover:shadow-[0_0_14px_rgba(255,255,255,0.18)]
+                  "
                 >
                   <div
-                    className={`text-[28px] font-extrabold text-gray-100 mb-1 ${animateStats ? 'animate-pulse' : ''}`}
-                    style={{ textShadow: '0 0 14px rgba(255,255,255,0.10)' }} // added: subtle neon glow
+                    className={`
+                      text-[28px]
+                      font-extrabold
+                      text-gray-200
+                      mb-1
+                      transition-colors
+                      duration-200
+                      ${animateStats ? 'animate-pulse' : ''}
+                    `}
+                    style={{
+                      textShadow: '0 0 6px rgba(255,255,255,0.15)'
+                    }}
                   >
-                    {stat.value.toLocaleString()}{stat.suffix}
+                    {stat.value.toLocaleString()}
+                    {stat.suffix}
                   </div>
+
                   <div className="text-sm text-gray-400">{stat.label}</div>
                 </div>
               ))}
