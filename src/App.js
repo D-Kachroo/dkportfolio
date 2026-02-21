@@ -211,7 +211,7 @@ export default function App() {
                   Computer Science & Finance Student | University of Waterloo
                 </p>
                 <div className="flex flex-wrap gap-2 mb-6 text-[13px]">
-                  {['Quant Finance','Fintech','AI/ML','Data Science','Trading','Full-Stack SWE','Portfolio Management','Risk Analytics','Crypto/Blockchain'].map((t)=>(
+                  {['Quant Finance','Fintech','AI/ML','Data Science','Algo Trading','Full-Stack SWE','Portfolio Management','Risk Analytics','Crypto/Blockchain','Venture Capital'].map((t)=>(
                     <span key={t} className="px-3 py-1 rounded-full bg-gray-700 text-gray-200 border border-gray-600">{t}</span>
                   ))}
                 </div>
