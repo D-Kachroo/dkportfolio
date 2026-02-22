@@ -380,7 +380,7 @@ export default function App() {
               >
                 <div className="flex items-center gap-3 mb-5 pb-3 border-b border-gray-700">
                   <Briefcase className="text-indigo-400" size={28} />
-                  <h2 className="text-[26px] md:text-[28px] font-extrabold text-indigo-400 tracking-tight">Professional Experience</h2>
+                  <h2 className="text-[26px] md:text-[28px] font-extrabold text-indigo-400 tracking-tight">Professional Experiences</h2>
                 </div>
                 <div className="space-y-4">
                   {experiences.slice(0, 3).map((exp, i) => (
