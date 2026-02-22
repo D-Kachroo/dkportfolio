@@ -80,7 +80,7 @@ export default function App() {
     { 
       company: 'Royal Bank of Canada (RBC)', 
       role: 'Technology Intern', 
-      period: 'September 2021 - August 2024',
+      period: 'September 2023 - August 2024',
       location: 'Toronto, Ontario, Canada',
       description: '• I led 90+ coding workshops in HTML, CSS, Python, and Java for ~800 youth (ages 8–14), to promote digital literacy in the GTA. • Provided 24/7 technical support and live code reviews at 40+ training sessions, using GitHub Enterprise and Azure DevOps. •  Collaborated with Canada Learning Code (CLC) to monitor their financial data systems, cloud infrastructure, and CI/CD pipelines.',
       tech: ['Python', 'Java', 'HTML/CSS'],
