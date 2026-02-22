@@ -50,7 +50,7 @@ export default function App() {
   ];
 
   const skills = [
-    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C++', 'C#', 'VBA'], level: 95, icon: Code, color: 'blue' },
+    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C++', 'C#'], level: 95, icon: Code, color: 'blue' },
     { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'Streamlit', 'yfinance', 'QuantLib'], level: 92, icon: Terminal, color: 'blue' },
     { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'Postman', 'Anaconda', 'JupyterLab', 'Tableau', 'Power BI'], level: 88, icon: Zap, color: 'blue' },
     { category: 'Databases & Cloud', items: ['MongoDB', 'PostgreSQL', 'Snowflake', 'Firebase', 'BigQuery', 'AWS CloudShell', 'Railway'], level: 85, icon: Activity, color: 'blue' },
