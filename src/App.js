@@ -31,7 +31,7 @@ export default function App() {
       year: '2025-2030', 
       gpa: '3.75/4.0',
       location: 'Waterloo, ON',
-      achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design & Data Abstraction']
+      achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design and Data Abstraction']
     },
     { 
       school: 'Erindale Secondary School', 
