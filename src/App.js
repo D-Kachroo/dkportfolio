@@ -37,7 +37,7 @@ export default function App() {
       school: 'Erindale Secondary School', 
       degree: 'High School + IB Diploma', 
       year: '2021-2025', 
-      gpa: '98%',
+      gpa: '4.0/4.0',
       location: 'Mississauga, ON',
       achievements: ['Ontario DECA: 1st Place (out of ~250) in Finance Operations Research Event', 'freeCodeCamp: Data Analysis with Python Certificate', 'freeCodeCamp: Scientific Computing with Python Certificate']
     }
