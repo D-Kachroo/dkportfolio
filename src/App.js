@@ -30,7 +30,7 @@ export default function App() {
       degree: 'Bachelor of Computer Science & Finance (CFM)', 
       year: '2025-2030', 
       gpa: '3.75/4.0',
-      location: 'Waterloo, ON',
+      location: 'Waterloo, Ontario, Canada',
       achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design and Data Abstraction']
     },
     { 
@@ -38,7 +38,7 @@ export default function App() {
       degree: 'High School + IB Diploma', 
       year: '2021-2025', 
       gpa: '4.0/4.0',
-      location: 'Mississauga, ON',
+      location: 'Mississauga, Ontario, Canada',
       achievements: ['Ontario DECA: 1st Place (out of ~250) in Finance Operations Research Event', 'freeCodeCamp: Data Analysis with Python Certificate', 'freeCodeCamp: Scientific Computing with Python Certificate']
     }
   ];
@@ -50,18 +50,27 @@ export default function App() {
   ];
 
   const skills = [
-    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Java', 'Rust'], level: 95, icon: Code, color: 'blue' },
-    { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'Streamlit', 'yfinance', 'QuantLib'], level: 92, icon: Terminal, color: 'blue' },
-    { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'Postman', 'Anaconda', 'JupyterLab', 'Tableau', 'Power BI'], level: 88, icon: Zap, color: 'blue' },
-    { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS CloudShell'], level: 85, icon: Activity, color: 'blue' },
-    { category: 'Finance & Analytics', items: ['Financial Modeling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL', 'Excel VBA'], level: 90, icon: TrendingUp, color: 'blue' },
-    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Team Collaboration'], level: 94, icon: Award, color: 'blue' }
+    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Java', 'Rust'], level: 93%, icon: Code, color: 'blue' },
+    { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'Streamlit', 'yfinance', 'QuantLib'], level: 82%, icon: Terminal, color: 'blue' },
+    { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'Postman', 'Anaconda', 'JupyterLab', 'Tableau', 'Power BI'], level: 90%, icon: Zap, color: 'blue' },
+    { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS CloudShell'], level: 81%, icon: Activity, color: 'blue' },
+    { category: 'Finance & Analytics', items: ['Financial Modelling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL', 'Excel VBA'], level: 86%, icon: TrendingUp, color: 'blue' },
+    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Team Collaboration'], level: 89%, icon: Award, color: 'blue' }
   ];
 
   const experiences = [
     { 
+      company: 'Royal Bank of Canada (RBC)', 
+      role: 'Investment Management Analyst', 
+      period: 'May 2026 - August 2026',
+      location: 'Toronto, Ontario, Canada',
+      description: '• I led 90+ coding workshops in HTML, CSS, Python, and Java for ~800 youth (ages 8–14), to promote digital literacy in the GTA. • Provided 24/7 technical support and live code reviews at 40+ training sessions, using GitHub Enterprise and Azure DevOps. •  Collaborated with Canada Learning Code (CLC) to monitor their financial data systems, cloud infrastructure, and CI/CD pipelines.',
+      tech: ['Python', 'Java', 'HTML/CSS'],
+      achievements: ['Monitored 6 different financial databases', 'Developed a customized curriculum', '4.81/5 student satisfaction rating']
+    },
+    { 
       company: 'Innodata Inc.', 
-      role: 'AI Research Data Analyst', 
+      role: 'AI Research Data Scientist', 
       period: 'April 2025 - September 2025',
       location: 'Ridgefield Park, New Jersey, USA',
       description: '• I processed 200+ daily AI evaluation tasks for search relevance across Apple Music, IMDb, and iOS + Android app store queries.• Set up monthly QA scripts using Python, SQL, and R to audit model outputs, debug failures, and track BI metrics (x4) with Tableau. • Computed precision@k, recall, and NDCG on ~10K samples to boost ML model accuracy by 15%+ and guide 6 retraining cycles.',
@@ -76,15 +85,6 @@ export default function App() {
       description: '• I analyzed the financial records of ~150 SMBs by calculating EBITDA margins, debt-to-equity (D/E) ratios, liquidity, and ROI metrics. • Developed an AI + ML software with 5K+ data points to evaluate business credit score ratings, using Matplotlib and scikit-learn. • Measured financial risk via 4+ KPIs such as price-to-earnings (P/E), income variance, cash-flow volatility, and market stress-tests.',
       tech: ['Excel', 'Python', 'Bloomberg', 'Financial Modeling'],
       achievements: ['Generated 15+ market analysis reports', 'Built predictive models with 85% accuracy', 'Presented strategies to C-suite executives']
-    },
-    { 
-      company: 'Royal Bank of Canada (RBC)', 
-      role: 'Technology Intern', 
-      period: 'September 2023 - August 2024',
-      location: 'Toronto, Ontario, Canada',
-      description: '• I led 90+ coding workshops in HTML, CSS, Python, and Java for ~800 youth (ages 8–14), to promote digital literacy in the GTA. • Provided 24/7 technical support and live code reviews at 40+ training sessions, using GitHub Enterprise and Azure DevOps. •  Collaborated with Canada Learning Code (CLC) to monitor their financial data systems, cloud infrastructure, and CI/CD pipelines.',
-      tech: ['Python', 'Java', 'HTML/CSS'],
-      achievements: ['Monitored 6 different financial databases', 'Developed a customized curriculum', '4.81/5 student satisfaction rating']
     }
   ];
 
