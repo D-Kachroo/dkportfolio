@@ -94,7 +94,7 @@ export default function App() {
       tech: ['C++', 'JavaScript', 'HTML/CSS', 'Plotly.js', 'SQL', 'Alpha Vantage API'],
       description: 'Options trading app that computes Alpha & Greek risks with C++ and PostgreSQL.',
       link: 'https://alphagreeksplus.onrender.com/',
-      github: 'https://github.com/D-Kachroo/autopay-plus',
+      github: 'https://github.com/D-Kachroo/AlphaGreeksPlus',
       status: 'Live',
       featured: true,
       image: '💳'
@@ -104,7 +104,7 @@ export default function App() {
       tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
       description: 'ML-powered advisor that uses quantitative analysis to optimize ETF portfolios based on risk tolerance and investment goals.',
       link: 'https://quantetf.streamlit.app/',
-      github: 'https://github.com/D-Kachroo/ETF-Portfolio-Advisor',
+      github: 'https://github.com/D-Kachroo/QuantETF',
       status: 'Live',
       featured: true,
       image: '📊'
@@ -114,7 +114,7 @@ export default function App() {
       tech: ['Next.js', 'TypeScript', 'Chart.js', 'PostgreSQL', 'TradingView'],
       description: 'C#-based war simulator with 3D battleships/aircraft models that use JSON and WebGL.',
       link: 'https://skystrike.onrender.com/',
-      github: 'https://github.com/D-Kachroo/quant-indexer',
+      github: 'https://github.com/D-Kachroo/SkyStrike',
       status: 'Live',
       featured: true,
       image: '📈'
@@ -124,7 +124,7 @@ export default function App() {
       tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
       description: 'A customizable tool that tracks a portfolio (≤25 stocks) to different market indices (S&P 500, TSX 60, DJIA, etc.).',
       link: 'https://marketmeet.streamlit.app/',
-      github: 'https://github.com/D-Kachroo/ETF-Portfolio-Advisor',
+      github: 'https://github.com/D-Kachroo/MarketMeet',
       status: 'Live',
       featured: true,
       image: '📊'
