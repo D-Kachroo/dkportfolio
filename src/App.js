@@ -66,7 +66,7 @@ export default function App() {
       location: 'Toronto, Ontario, Canada',
       description: '• I analyzed ~5K transactions across 300+ client accounts in PostgreSQL and Excel VBA to monitor asset volumes & cash balances. • Built 6 dashboards in Tableau and Power BI to track unrealized P&L for 250+ global securities using Python and RBC Assist Pro. • Validated 20K+ investment holdings and Bloomberg Terminal data with 98.3% accuracy to support ~$10M in portfolio balancing.',
       tech: ['Python', 'RBC Assist Pro', 'PostgreSQL', 'Bloomberg Terminal', 'Tableau', 'Excel VBA'],
-      achievements: ['Generated 40+ internal PIM reports', 'Evaluated securities across 12 market sectors', 'Improved risk management by 18%']
+      achievements: ['Generated 40+ internal PIM reports', 'Evaluated securities across 12 market sectors', 'Improved VaR risk management by 18%']
     },
     { 
       company: 'Innodata Inc.', 
