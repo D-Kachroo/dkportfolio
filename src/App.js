@@ -90,6 +90,16 @@ export default function App() {
 
   const projects = [
     { 
+      name: 'AlphaGreeks+', 
+      tech: ['Python', 'TensorFlow', 'React', 'Firebase', 'Stripe API'],
+      description: 'Intelligent bill payment automation system with ML-powered spending predictions and automated payment scheduling to help users avoid late fees.',
+      link: 'https://autopay-plus.netlify.app',
+      github: 'https://github.com/D-Kachroo/autopay-plus',
+      status: 'Live',
+      featured: true,
+      image: '💳'
+    },
+    { 
       name: 'QuantETF', 
       tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
       description: 'AI-powered ETF recommendation platform using quantitative analysis and machine learning to suggest optimal portfolio allocations based on risk tolerance and investment goals.',
@@ -100,17 +110,7 @@ export default function App() {
       image: '📊'
     },
     { 
-      name: 'AutoPay+', 
-      tech: ['Python', 'TensorFlow', 'React', 'Firebase', 'Stripe API'],
-      description: 'Intelligent bill payment automation system with ML-powered spending predictions and automated payment scheduling to help users avoid late fees.',
-      link: 'https://autopay-plus.netlify.app',
-      github: 'https://github.com/D-Kachroo/autopay-plus',
-      status: 'In Progress',
-      featured: true,
-      image: '💳'
-    },
-    { 
-      name: 'Quant-Indexer', 
+      name: 'SkyStrike', 
       tech: ['Next.js', 'TypeScript', 'Chart.js', 'PostgreSQL', 'TradingView'],
       description: 'Real-time market data visualization platform with custom technical indicators and backtesting capabilities for quantitative trading strategies.',
       link: 'https://quant-indexer.vercel.app',
@@ -118,6 +118,16 @@ export default function App() {
       status: 'Live',
       featured: true,
       image: '📈'
+    },
+    { 
+      name: 'MarketMeet', 
+      tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
+      description: 'AI-powered ETF recommendation platform using quantitative analysis and machine learning to suggest optimal portfolio allocations based on risk tolerance and investment goals.',
+      link: 'https://quant-etf-advisor.streamlit.app/',
+      github: 'https://github.com/D-Kachroo/ETF-Portfolio-Advisor',
+      status: 'Live',
+      featured: true,
+      image: '📊'
     }
   ];
 
