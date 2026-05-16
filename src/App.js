@@ -143,7 +143,7 @@ export default function App() {
     blue:  '#1d4ed8',
     red:   '#db0202',     
     teal:  '#08ceb7',
-    indigo:'#2563eb'       
+    indigo:'#1e40af'       
   };
 
   const getColorClasses = (color) => {
