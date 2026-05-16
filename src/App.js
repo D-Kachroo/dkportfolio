@@ -50,22 +50,22 @@ export default function App() {
   ];
 
   const skills = [
-    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C++', 'C#', 'Java', 'Rust'], level: 93%, icon: Code, color: 'blue' },
-    { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'Streamlit', 'yfinance', 'QuantLib'], level: 82%, icon: Terminal, color: 'blue' },
-    { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'Postman', 'Anaconda', 'JupyterLab', 'Tableau', 'Power BI'], level: 90%, icon: Zap, color: 'blue' },
-    { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS CloudShell'], level: 81%, icon: Activity, color: 'blue' },
-    { category: 'Finance & Analytics', items: ['Financial Modelling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL', 'Excel VBA'], level: 86%, icon: TrendingUp, color: 'blue' },
-    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Team Collaboration'], level: 89%, icon: Award, color: 'blue' }
+    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C#', 'C++', 'Java'], level: 93%, icon: Code, color: 'blue' },
+    { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'yfinance', 'QuantLib'], level: 82%, icon: Terminal, color: 'blue' },
+    { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'JupyterLab', 'Tableau', 'Power BI'], level: 90%, icon: Zap, color: 'blue' },
+    { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS', 'Azure'], level: 81%, icon: Activity, color: 'blue' },
+    { category: 'Finance & Analytics', items: ['Excel VBA', 'Financial Modelling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL'], level: 86%, icon: TrendingUp, color: 'blue' },
+    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Teamwork'], level: 95%, icon: Award, color: 'blue' }
   ];
 
   const experiences = [
     { 
       company: 'Royal Bank of Canada (RBC)', 
       role: 'Investment Management Analyst', 
-      period: 'May 2026 - August 2026',
+      period: 'May 2026 - August 2026',    
       location: 'Toronto, Ontario, Canada',
-      description: '• I led 90+ coding workshops in HTML, CSS, Python, and Java for ~800 youth (ages 8–14), to promote digital literacy in the GTA. • Provided 24/7 technical support and live code reviews at 40+ training sessions, using GitHub Enterprise and Azure DevOps. •  Collaborated with Canada Learning Code (CLC) to monitor their financial data systems, cloud infrastructure, and CI/CD pipelines.',
-      tech: ['Python', 'Java', 'HTML/CSS'],
+      description: '• I analyzed ~5K transactions across 300+ client accounts in PostgreSQL and Excel VBA to monitor asset volumes & cash balances. • Built 6 dashboards in Tableau and Power BI to track unrealized P&L for 250+ global securities using Python and RBC Assist Pro. • Validated 20K+ investment holdings and Bloomberg Terminal data with 98.3% accuracy to support ~$10M in portfolio balancing.',
+      tech: ['Python', 'RBC Assist Pro', 'PostgreSQL', 'Bloomberg Terminal', 'Tableau', 'Excel VBA'],
       achievements: ['Monitored 6 different financial databases', 'Developed a customized curriculum', '4.81/5 student satisfaction rating']
     },
     { 
@@ -74,7 +74,7 @@ export default function App() {
       period: 'April 2025 - September 2025',
       location: 'Ridgefield Park, New Jersey, USA',
       description: '• I processed 200+ daily AI evaluation tasks for search relevance across Apple Music, IMDb, and iOS + Android app store queries.• Set up monthly QA scripts using Python, SQL, and R to audit model outputs, debug failures, and track BI metrics (x4) with Tableau. • Computed precision@k, recall, and NDCG on ~10K samples to boost ML model accuracy by 15%+ and guide 6 retraining cycles.',
-      tech: ['Python', 'Pandas', 'SQL', 'Data Visualization'],
+      tech: ['Python', 'Pandas', 'NumPy, 'R', 'Data Visualization'],
       achievements: ['Processed 500K+ data points', 'Reduced annotation errors by 40%', 'Implemented automated QC pipeline']
     },
     { 
@@ -83,7 +83,7 @@ export default function App() {
       period: 'June 2025 - September 2025',
       location: 'Vancouver, British Columbia, Canada',
       description: '• I analyzed the financial records of ~150 SMBs by calculating EBITDA margins, debt-to-equity (D/E) ratios, liquidity, and ROI metrics. • Developed an AI + ML software with 5K+ data points to evaluate business credit score ratings, using Matplotlib and scikit-learn. • Measured financial risk via 4+ KPIs such as price-to-earnings (P/E), income variance, cash-flow volatility, and market stress-tests.',
-      tech: ['Excel', 'Python', 'Bloomberg', 'Financial Modeling'],
+      tech: ['Excel', 'MySQL', 'Power BI', 'Fundamental Analysis'],
       achievements: ['Generated 15+ market analysis reports', 'Built predictive models with 85% accuracy', 'Presented strategies to C-suite executives']
     }
   ];
