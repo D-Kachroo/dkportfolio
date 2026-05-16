@@ -122,7 +122,7 @@ export default function App() {
     { 
       name: 'MarketMeet', 
       tech: ['R', 'tidyverse', 'Python', 'SciPy', 'statsmodels', 'Jira'],
-      description: 'A Yahoo Finance API tool that tracks a portfolio (≤25 stocks) to different market indices (S&P 500, TSX 60, DJIA, etc.)',
+      description: 'Yahoo Finance API tool that tracks a portfolio (≤25 stocks) to different market indices (S&P 500, TSX 60, DJIA, etc.)',
       link: 'https://marketmeet.streamlit.app/',
       github: 'https://github.com/D-Kachroo/MarketMeet',
       status: 'Live',
