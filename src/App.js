@@ -91,9 +91,9 @@ export default function App() {
   const projects = [
     { 
       name: 'AlphaGreeks+', 
-      tech: ['Python', 'TensorFlow', 'React', 'Firebase', 'Stripe API'],
-      description: 'Intelligent bill payment automation system with ML-powered spending predictions and automated payment scheduling to help users avoid late fees.',
-      link: 'https://autopay-plus.netlify.app',
+      tech: ['C++', 'JavaScript', 'HTML/CSS', 'Plotly.js', 'SQL', 'Alpha Vantage API'],
+      description: 'Options trading app that computes Alpha & Greek risks with C++ and PostgreSQL.',
+      link: 'https://alphagreeksplus.onrender.com/',
       github: 'https://github.com/D-Kachroo/autopay-plus',
       status: 'Live',
       featured: true,
@@ -102,8 +102,8 @@ export default function App() {
     { 
       name: 'QuantETF', 
       tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
-      description: 'AI-powered ETF recommendation platform using quantitative analysis and machine learning to suggest optimal portfolio allocations based on risk tolerance and investment goals.',
-      link: 'https://quant-etf-advisor.streamlit.app/',
+      description: 'ML-powered advisor that uses quantitative analysis to optimize ETF portfolios based on risk tolerance and investment goals.',
+      link: 'https://quantetf.streamlit.app/',
       github: 'https://github.com/D-Kachroo/ETF-Portfolio-Advisor',
       status: 'Live',
       featured: true,
@@ -112,8 +112,8 @@ export default function App() {
     { 
       name: 'SkyStrike', 
       tech: ['Next.js', 'TypeScript', 'Chart.js', 'PostgreSQL', 'TradingView'],
-      description: 'Real-time market data visualization platform with custom technical indicators and backtesting capabilities for quantitative trading strategies.',
-      link: 'https://quant-indexer.vercel.app',
+      description: 'C#-based war simulator with 3D battleships/aircraft models that use JSON and WebGL.',
+      link: 'https://skystrike.onrender.com/',
       github: 'https://github.com/D-Kachroo/quant-indexer',
       status: 'Live',
       featured: true,
@@ -122,8 +122,8 @@ export default function App() {
     { 
       name: 'MarketMeet', 
       tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
-      description: 'AI-powered ETF recommendation platform using quantitative analysis and machine learning to suggest optimal portfolio allocations based on risk tolerance and investment goals.',
-      link: 'https://quant-etf-advisor.streamlit.app/',
+      description: 'A customizable tool that tracks a portfolio (≤25 stocks) to different market indices (S&P 500, TSX 60, DJIA, etc.).',
+      link: 'https://marketmeet.streamlit.app/',
       github: 'https://github.com/D-Kachroo/ETF-Portfolio-Advisor',
       status: 'Live',
       featured: true,
