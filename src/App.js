@@ -91,7 +91,7 @@ export default function App() {
   const projects = [
     { 
       name: 'AlphaGreeks+', 
-      tech: ['C++', 'JavaScript', 'HTML/CSS', 'Plotly.js', 'SQL', 'Alpha Vantage API'],
+      tech: ['C++', 'JavaScript', 'HTML', 'CSS', 'Plotly.js', 'SQL', 'Alpha Vantage API'],
       description: 'Options trading app that computes Alpha & Greek risks with C++ and PostgreSQL.',
       link: 'https://alphagreeksplus.onrender.com/',
       github: 'https://github.com/D-Kachroo/AlphaGreeksPlus',
@@ -101,7 +101,7 @@ export default function App() {
     },
     { 
       name: 'QuantETF', 
-      tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
+      tech: ['Python', 'QuantLib', 'scikit-learn', 'NumPy', 'PyPortfolioOpt', 'Matplotlib'],
       description: 'ML-powered advisor that uses quantitative analysis to optimize ETF portfolios based on risk tolerance and investment goals.',
       link: 'https://quantetf.streamlit.app/',
       github: 'https://github.com/D-Kachroo/QuantETF',
@@ -111,7 +111,7 @@ export default function App() {
     },
     { 
       name: 'SkyStrike', 
-      tech: ['Next.js', 'TypeScript', 'Chart.js', 'PostgreSQL', 'TradingView'],
+      tech: ['C#', 'TypeScript', 'JSON', 'Firebase', 'MongoDB', 'WebGL', 'Three.js'],
       description: 'C#-based war simulator with 3D battleships/aircraft models that use JSON and WebGL.',
       link: 'https://skystrike.onrender.com/',
       github: 'https://github.com/D-Kachroo/SkyStrike',
@@ -121,8 +121,8 @@ export default function App() {
     },
     { 
       name: 'MarketMeet', 
-      tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
-      description: 'A customizable tool that tracks a portfolio (≤25 stocks) to different market indices (S&P 500, TSX 60, DJIA, etc.).',
+      tech: ['R', 'tidyverse', 'Python', 'SciPy', 'statsmodels', 'Jira'],
+      description: 'A Yahoo Finance API tool that tracks a portfolio (≤25 stocks) to different market indices (S&P 500, TSX 60, DJIA, etc.)',
       link: 'https://marketmeet.streamlit.app/',
       github: 'https://github.com/D-Kachroo/MarketMeet',
       status: 'Live',
