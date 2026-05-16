@@ -74,7 +74,7 @@ export default function App() {
       period: 'April 2025 - September 2025',
       location: 'Ridgefield Park, New Jersey, USA',
       description: '• I wrote monthly QA scripts to audit model outputs, debug errors, and track BI metrics (x4) with Tableau, using Python, SQL, and R. • Processed 200+ AI evaluation tasks daily related to DaaS validation, A/B testing, and GT labelling across >30,000 data samples. • Computed precision@k, recall, and NDCG on ~10K samples to boost ML model accuracy by 15%+ and guide 6 retraining cycles.',
-      tech: ['Python', 'Pandas', 'NumPy, 'R', 'Data Visualization'],
+      tech: ['Python', 'Pandas', 'NumPy', 'R', 'Data Visualization'],
       achievements: ['Processed 500K+ data points', 'Reduced annotation errors by 40%', 'Implemented automated QC pipeline']
     },
     { 
