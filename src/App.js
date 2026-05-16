@@ -31,13 +31,13 @@ export default function App() {
       year: '2025-2030', 
       gpa: '3.75/4.0',
       location: 'Waterloo, Ontario, Canada',
-      achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design and Data Abstraction']
+      achievements: ['President's Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design and Data Abstraction']
     },
     { 
       school: 'Erindale Secondary School', 
       degree: 'High School + IB Diploma', 
       year: '2021-2025', 
-      gpa: '4.0/4.0',
+      gpa: '3.98/4.0',
       location: 'Mississauga, Ontario, Canada',
       achievements: ['Ontario DECA: 1st Place (out of ~250) in Finance Operations Research Event', 'freeCodeCamp: Data Analysis with Python Certificate', 'freeCodeCamp: Scientific Computing with Python Certificate']
     }
@@ -73,7 +73,7 @@ export default function App() {
       role: 'AI Research Data Scientist', 
       period: 'April 2025 - September 2025',
       location: 'Ridgefield Park, New Jersey, USA',
-      description: '• I processed 200+ daily AI evaluation tasks for search relevance across Apple Music, IMDb, and iOS + Android app store queries.• Set up monthly QA scripts using Python, SQL, and R to audit model outputs, debug failures, and track BI metrics (x4) with Tableau. • Computed precision@k, recall, and NDCG on ~10K samples to boost ML model accuracy by 15%+ and guide 6 retraining cycles.',
+      description: '• I wrote monthly QA scripts to audit model outputs, debug errors, and track BI metrics (x4) with Tableau, using Python, SQL, and R. • Processed 200+ AI evaluation tasks daily related to DaaS validation, A/B testing, and GT labelling across >30,000 data samples. • Computed precision@k, recall, and NDCG on ~10K samples to boost ML model accuracy by 15%+ and guide 6 retraining cycles.',
       tech: ['Python', 'Pandas', 'NumPy, 'R', 'Data Visualization'],
       achievements: ['Processed 500K+ data points', 'Reduced annotation errors by 40%', 'Implemented automated QC pipeline']
     },
@@ -82,7 +82,7 @@ export default function App() {
       role: 'Financial Research & Strategy Intern', 
       period: 'June 2025 - September 2025',
       location: 'Vancouver, British Columbia, Canada',
-      description: '• I analyzed the financial records of ~150 SMBs by calculating EBITDA margins, debt-to-equity (D/E) ratios, liquidity, and ROI metrics. • Developed an AI + ML software with 5K+ data points to evaluate business credit score ratings, using Matplotlib and scikit-learn. • Measured financial risk via 4+ KPIs such as price-to-earnings (P/E), income variance, cash-flow volatility, and market stress-tests.',
+      description: '• I examined the financial records of ~150 SMBs by calculating EBITDA margins, debt-to-equity (D/E) ratios, liquidity, and ROI metrics. • Developed an AI + ML software with 5K+ data points to evaluate business credit score ratings, using Matplotlib and scikit-learn. • Measured financial risk via 4+ KPIs such as price-to-earnings (P/E), income variance, cash-flow volatility, and market stress tests.',
       tech: ['Excel', 'MySQL', 'Power BI', 'Fundamental Analysis'],
       achievements: ['Generated 15+ market analysis reports', 'Built predictive models with 85% accuracy', 'Presented strategies to C-suite executives']
     }
@@ -90,7 +90,7 @@ export default function App() {
 
   const projects = [
     { 
-      name: 'QuantETF Advisor', 
+      name: 'QuantETF', 
       tech: ['React', 'Node.js', 'MongoDB', 'Matplotlib', 'FRED API'],
       description: 'AI-powered ETF recommendation platform using quantitative analysis and machine learning to suggest optimal portfolio allocations based on risk tolerance and investment goals.',
       link: 'https://quant-etf-advisor.streamlit.app/',
