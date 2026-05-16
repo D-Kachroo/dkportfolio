@@ -50,12 +50,12 @@ export default function App() {
   ];
 
   const skills = [
-    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C#', 'C++', 'Java'], level: '93%', icon: Code, color: 'blue' },
-    { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'yfinance', 'QuantLib'], level: '82%', icon: Terminal, color: 'blue' },
-    { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'JupyterLab', 'Tableau', 'Power BI'], level: '90%', icon: Zap, color: 'blue' },
-    { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS', 'Azure'], level: '81%', icon: Activity, color: 'blue' },
-    { category: 'Finance & Analytics', items: ['Excel VBA', 'Financial Modelling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL'], level: '86%', icon: TrendingUp, color: 'blue' },
-    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Teamwork'], level: '95%', icon: Award, color: 'blue' }
+    { category: 'Languages', items: ['Python', 'SQL', 'R', 'JavaScript', 'TypeScript', 'C#', 'C++', 'Java'], level: 93, icon: Code, color: 'blue' },
+    { category: 'Frameworks & Libraries', items: ['pandas', 'NumPy', 'scikit-learn', 'statsmodels', 'Matplotlib', 'yfinance', 'QuantLib'], level: 82, icon: Terminal, color: 'blue' },
+    { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'JupyterLab', 'Tableau', 'Power BI'], level: 90, icon: Zap, color: 'blue' },
+    { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS', 'Azure'], level: 81, icon: Activity, color: 'blue' },
+    { category: 'Finance & Analytics', items: ['Excel VBA', 'Financial Modelling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL'], level: 86, icon: TrendingUp, color: 'blue' },
+    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Teamwork'], level: 95, icon: Award, color: 'blue' }
   ];
 
   const experiences = [
