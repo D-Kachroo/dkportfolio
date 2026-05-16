@@ -141,9 +141,9 @@ export default function App() {
   const palette = {
     green: '#22c55e',
     blue:  '#1d4ed8',
-    red:   '#db0202',      // left untouched elsewhere
+    red:   '#db0202',     
     teal:  '#08ceb7',
-    indigo:'#4f46e5'       // NEW: cool accent for Experience
+    indigo:'#2563eb'       
   };
 
   const getColorClasses = (color) => {
