@@ -562,7 +562,7 @@ export default function App() {
                   </div>
                   <p className="text-gray-300 mt-4 leading-relaxed">{exp.description}</p>
                   <div className="mt-4">
-                    <h4 className="text-sm font-semibold text-indigo-400 mb-2">Technologies Used:</h4>
+                    <h4 className="text-sm font-semibold text-indigo-400 mb-2">Tech Stack:</h4>
                     <div className="flex flex-wrap gap-2">
                       {exp.tech.map((tech, j) => (
                         <span key={j} className="bg-indigo-900/30 text-indigo-300 px-3 py-1.5 rounded-full text-sm font-medium">
