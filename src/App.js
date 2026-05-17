@@ -24,6 +24,25 @@ export default function App() {
     { id: 'contact', label: 'Contact', icon: Mail }
   ];
 
+  const education = [
+    { 
+      school: 'University of Waterloo', 
+      degree: 'Bachelor of Computer Science & Finance (CFM)', 
+      year: '2025-2030', 
+      gpa: '3.75/4.0',
+      location: 'Waterloo, Ontario, Canada',
+      achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design and Data Abstraction']
+    },
+    { 
+      school: 'Erindale Secondary School', 
+      degree: 'High School + IB Diploma', 
+      year: '2021-2025', 
+      gpa: '3.98/4.0',
+      location: 'Mississauga, Ontario, Canada',
+      achievements: ['Ontario DECA: 1st Place (out of ~250) in Finance Operations Research Event', 'freeCodeCamp: Data Analysis with Python Certificate', 'freeCodeCamp: Scientific Computing with Python Certificate']
+    }
+  ];
+
   const extracurriculars = [
     { name: 'Vice-President of Investments (Fintech Club)', period: 'Oct. 2025 - Present', icon: TrendingUp },
     { name: 'Junior Executive (Quant Finance Club)', period: 'Jan. 2026 - Present', icon: Code },
