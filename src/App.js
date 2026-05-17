@@ -24,25 +24,6 @@ export default function App() {
     { id: 'contact', label: 'Contact', icon: Mail }
   ];
 
-  const education = [
-    { 
-      school: 'University of Waterloo', 
-      degree: 'Bachelor of Computer Science & Finance (CFM)', 
-      year: '2025-2030', 
-      gpa: '3.75/4.0',
-      location: 'Waterloo, Ontario, Canada',
-      achievements: ['President\'s Scholarship of Distinction ($2000 + $1500)', 'UWaterloo Entrance Scholarship ($2000)', 'Relevant Courses: Financial Markets and Data Analytics, Designing Functional Programs, Algorithm Design and Data Abstraction']
-    },
-    { 
-      school: 'Erindale Secondary School', 
-      degree: 'High School + IB Diploma', 
-      year: '2021-2025', 
-      gpa: '3.98/4.0',
-      location: 'Mississauga, Ontario, Canada',
-      achievements: ['Ontario DECA: 1st Place (out of ~250) in Finance Operations Research Event', 'freeCodeCamp: Data Analysis with Python Certificate', 'freeCodeCamp: Scientific Computing with Python Certificate']
-    }
-  ];
-
   const extracurriculars = [
     { name: 'Vice-President of Investments (Fintech Club)', period: 'Oct. 2025 - Present', icon: TrendingUp },
     { name: 'Junior Executive (Quant Finance Club)', period: 'Jan. 2026 - Present', icon: Code },
@@ -380,7 +361,7 @@ export default function App() {
 
               {/* Work Experience (INDIGO instead of red) */}
               <div
-                className="bg-gray-800 border border-gray-700 rounded-xl p-6 transition-all duration-200 cursor-pointer transition-shadow hover:shadow-[0_0_20px_rgba(79,70,229,.18)]"
+                className="bg-gray-800 border border-gray-700 rounded-xl p-6 transition-all duration-200 cursor-pointer transition-shadow"
                 onMouseEnter={() => setHoveredSection('experience')}
                 onMouseLeave={() => setHoveredSection(null)}
                 onClick={() => setSelectedSection('experience')}
@@ -389,14 +370,14 @@ export default function App() {
                 }}
               >
                 <div className="flex items-center gap-3 mb-5 pb-3 border-b border-gray-700">
-                  <Briefcase className="text-indigo-400" size={28} />
-                  <h2 className="text-[26px] md:text-[28px] font-extrabold text-indigo-400 tracking-tight">Professional Experiences</h2>
+                  <Briefcase style={{ color: palette.indigo }} size={28} />
+                  <h2 className="text-[26px] md:text-[28px] font-extrabold tracking-tight" style={{ color: palette.indigo }}>Professional Experiences</h2>
                 </div>
                 <div className="space-y-4">
                   {experiences.slice(0, 3).map((exp, i) => (
-                    <div key={i} className="border-l-4 border-indigo-500 pl-4 hover:pl-5 transition-all hover:bg-gray-700/30 rounded-r pr-2 py-2">
+                    <div key={i} className="border-l-4 pl-4 hover:pl-5 transition-all hover:bg-gray-700/30 rounded-r pr-2 py-2" style={{ borderColor: palette.indigo }}>
                       <h3 className="font-extrabold text-white text-[20px] md:text-[22px] leading-snug tracking-tight">{exp.role}</h3>
-                      <p className="text-base text-indigo-300 mt-0.5 leading-tight">{exp.company}</p>
+                      <p className="text-base mt-0.5 leading-tight" style={{ color: palette.indigo }}>{exp.company}</p>
                       <div className="flex items-center gap-3 text-sm text-gray-300 mt-1 leading-tight">
                         <span className="flex items-center gap-1">
                           <Calendar size={12} />
@@ -538,16 +519,16 @@ export default function App() {
         {activeTab === 'experience' && (
           <div className="bg-gray-800 border border-gray-700 rounded-xl p-8">
             <div className="flex items-center gap-3 mb-8 pb-4 border-b border-gray-700">
-              <Briefcase className="text-indigo-400" size={32} />
-              <h2 className="text-[32px] font-extrabold text-indigo-400 tracking-tight">Work Experience</h2>
+              <Briefcase style={{ color: palette.indigo }} size={32} />
+              <h2 className="text-[32px] font-extrabold tracking-tight" style={{ color: palette.indigo }}>Work Experience</h2>
             </div>
             <div className="space-y-6">
               {experiences.map((exp, i) => (
-                <div key={i} className="border-l-4 border-indigo-500 pl-8 py-6 bg-gradient-to-r from-gray-700/50 to-transparent rounded-r-lg hover:from-gray-700 transition-all">
+                <div key={i} className="border-l-4 pl-8 py-6 bg-gradient-to-r from-gray-700/50 to-transparent rounded-r-lg hover:from-gray-700 transition-all" style={{ borderColor: palette.indigo }}>
                   <div className="flex items-start justify-between mb-3">
                     <div>
                       <h3 className="text-[24px] md:text-[26px] font-extrabold text-white leading-snug tracking-tight">{exp.role}</h3>
-                      <p className="text-[18px] text-indigo-300 mt-0.5 leading-tight">{exp.company}</p>
+                      <p className="text-[18px] mt-0.5 leading-tight" style={{ color: palette.indigo }}>{exp.company}</p>
                     </div>
                     <div className="text-right text-sm text-gray-400">
                       <div className="flex items-center gap-2 justify-end mb-1">
@@ -562,10 +543,10 @@ export default function App() {
                   </div>
                   <p className="text-gray-300 mt-4 leading-relaxed">{exp.description}</p>
                   <div className="mt-4">
-                    <h4 className="text-sm font-semibold text-indigo-400 mb-2">Tech Stack:</h4>
+                    <h4 className="text-sm font-semibold mb-2" style={{ color: palette.indigo }}>Tech Stack:</h4>
                     <div className="flex flex-wrap gap-2">
                       {exp.tech.map((tech, j) => (
-                        <span key={j} className="bg-indigo-900/30 text-indigo-300 px-3 py-1.5 rounded-full text-sm font-medium">
+                        <span key={j} className="px-3 py-1.5 rounded-full text-sm font-medium" style={{ backgroundColor: `${palette.indigo}25`, color: palette.indigo }}>
                           {tech}
                         </span>
                       ))}
@@ -573,14 +554,14 @@ export default function App() {
                   </div>
                   {exp.achievements && (
                     <div className="mt-4">
-                      <h4 className="text-sm font-semibold text-indigo-400 mb-2 flex items-center gap-2">
+                      <h4 className="text-sm font-semibold mb-2 flex items-center gap-2" style={{ color: palette.indigo }}>
                         <Award size={16} />
                         Key Achievements
                       </h4>
                       <ul className="space-y-1">
                         {exp.achievements.map((achievement, j) => (
                           <li key={j} className="text-sm text-gray-300 flex items-start gap-2">
-                            <span className="text-indigo-400 mt-1">•</span>
+                            <span style={{ color: palette.indigo }} className="mt-1">•</span>
                             {achievement}
                           </li>
                         ))}
