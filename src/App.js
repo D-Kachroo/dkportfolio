@@ -565,7 +565,14 @@ export default function App() {
                     <h4 className="text-sm font-semibold mb-2" style={{ color: palette.indigo }}>Tech Stack:</h4>
                     <div className="flex flex-wrap gap-2">
                       {exp.tech.map((tech, j) => (
-                        <span key={j} className="px-3 py-1.5 rounded-full text-sm font-medium" style={{ backgroundColor: `${palette.indigo}25`, color: palette.indigo }}>
+                        <span
+                          key={j}
+                          className="px-3 py-1.5 rounded-full text-sm font-bold text-white"
+                          style={{
+                            backgroundColor: `${palette.indigo}30`,
+                            border: `1px solid ${palette.indigo}55`
+                          }}
+                        >
                           {tech}
                         </span>
                       ))}
