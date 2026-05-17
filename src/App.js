@@ -497,7 +497,7 @@ export default function App() {
                     <div className="mt-4">
                       <h4 className="text-sm font-semibold text-green-400 mb-2 flex items-center gap-2">
                         <Award size={16} />
-                        Achievements
+                        Highlights
                       </h4>
                       <ul className="space-y-1">
                         {edu.achievements.map((achievement, j) => (
