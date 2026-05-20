@@ -752,7 +752,7 @@ export default function App() {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-white group-hover:text-blue-300 transition-colors">LinkedIn</h3>
-                  <p className="text-gray-400 text-sm">linkedin.com/in/david-kachroo</p>
+                  <p className="text-gray-400 text-sm">https://www.linkedin.com/in/david-kachroo/</p>
                 </div>
                 <ExternalLink className="text-gray-500 group-hover:text-blue-300 transition-colors" size={20} />
               </a>
@@ -767,7 +767,7 @@ export default function App() {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-white group-hover:text-red-400 transition-colors">GitHub</h3>
-                  <p className="text-gray-400 text-sm">github.com/D-Kachroo</p>
+                  <p className="text-gray-400 text-sm">https://github.com/D-Kachroo</p>
                 </div>
                 <ExternalLink className="text-gray-500 group-hover:text-red-400 transition-colors" size={20} />
               </a>
@@ -782,7 +782,7 @@ export default function App() {
                 </div>
                 <div className="flex-1">
                   <h3 className="font-bold text-white group-hover:text-teal-400 transition-colors">Devpost</h3>
-                  <p className="text-gray-400 text-sm">devpost.com/DK-CFM</p>
+                  <p className="text-gray-400 text-sm">https://devpost.com/DK-CFM</p>
                 </div>
                 <ExternalLink className="text-gray-500 group-hover:text-teal-400 transition-colors" size={20} />
               </a>
