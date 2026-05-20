@@ -97,7 +97,7 @@ export default function App() {
       github: 'https://github.com/D-Kachroo/AlphaGreeksPlus',
       status: 'Live',
       featured: true,
-      image: '💳'
+      image: '🏦'
     },
     { 
       name: 'QuantETF', 
@@ -107,7 +107,7 @@ export default function App() {
       github: 'https://github.com/D-Kachroo/QuantETF',
       status: 'Live',
       featured: true,
-      image: '📊'
+      image: '📈'
     },
     { 
       name: 'SkyStrike', 
@@ -117,7 +117,7 @@ export default function App() {
       github: 'https://github.com/D-Kachroo/SkyStrike',
       status: 'Live',
       featured: true,
-      image: '📈'
+      image: '🚀'
     },
     { 
       name: 'MarketMeet', 
