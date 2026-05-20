@@ -44,8 +44,8 @@ export default function App() {
   ];
 
   const extracurriculars = [
-    { name: 'Vice-President of Investments (Fintech Club)', period: 'Oct. 2025 - Present', icon: TrendingUp },
     { name: 'Junior Executive (Quant Finance Club)', period: 'Jan. 2026 - Present', icon: Code },
+    { name: 'Vice-President of Investments (Fintech Club)', period: 'Oct. 2025 - Apr. 2026', icon: TrendingUp },
     { name: 'Quantitative Analyst (Stocks Club)', period: 'Sept. 2025 - Dec. 2025', icon: BarChart3 }
   ];
 
@@ -61,7 +61,7 @@ export default function App() {
   const experiences = [
     { 
       company: 'Royal Bank of Canada (RBC)', 
-      role: 'Investment Management Analyst', 
+      role: 'Investment Data Analyst', 
       period: 'May 2026 - August 2026',    
       location: 'Toronto, Ontario, Canada',
       description: '• I analyzed ~5K transactions across 300+ client accounts in PostgreSQL and Excel VBA to monitor asset volumes & cash balances. • Built 6 dashboards in Tableau and Power BI to track unrealized P&L for 250+ global securities using Python and RBC Assist Pro. • Validated 20K+ investment holdings and Bloomberg Terminal data with 98.3% accuracy to support ~$10M in portfolio balancing.',
