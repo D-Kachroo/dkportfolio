@@ -55,7 +55,7 @@ export default function App() {
     { category: 'Software & Dev Tools', items: ['VS Code', 'GitHub', 'Jira', 'Docker', 'JupyterLab', 'Tableau', 'Power BI'], level: 90, icon: Zap, color: 'blue' },
     { category: 'Databases & Clouds', items: ['MongoDB', 'PostgreSQL', 'MySQL', 'BigQuery', 'Snowflake', 'Firebase', 'AWS', 'Azure'], level: 81, icon: Activity, color: 'blue' },
     { category: 'Finance & Analytics', items: ['Excel VBA', 'Financial Modelling', 'Risk Analysis', 'Data Visualization', 'Statistical Analysis', 'ETL'], level: 86, icon: TrendingUp, color: 'blue' },
-    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Teamwork'], level: 95, icon: Award, color: 'blue' }
+    { category: 'Soft Skills', items: ['Leadership', 'Communication', 'Problem Solving', 'Teamwork', 'Organization', 'Time Management'], level: 95, icon: Award, color: 'blue' }
   ];
 
   const experiences = [
