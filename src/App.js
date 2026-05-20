@@ -721,8 +721,8 @@ export default function App() {
         {activeTab === 'contact' && (
           <div className="bg-gray-800 border border-gray-700 rounded-xl p-8 max-w-3xl mx-auto">
             <div className="flex items-center gap-3 mb-8 pb-4 border-b border-gray-700">
-              <Mail className="text-green-400" size={32} />
-              <h2 className="text-3xl font-bold text-green-400">Contact Information</h2>
+              <Mail className="text-white-400" size={32} />
+              <h2 className="text-3xl font-bold text-white-400">Contact Information</h2>
             </div>
             <p className="text-gray-300 mb-8 text-center">
               I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and finance. Feel free to reach out!
