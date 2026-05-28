@@ -61,7 +61,7 @@ export default function App() {
   const experiences = [
     { 
       company: 'Royal Bank of Canada (RBC)', 
-      role: 'Investment Data Analyst', 
+      role: 'Investment Research Analyst', 
       period: 'May 2026 - August 2026',    
       location: 'Toronto, Ontario, Canada',
       description: '• I analyzed ~5K transactions across 300+ client accounts in PostgreSQL and Excel VBA to monitor asset volumes & cash balances. • Built 6 dashboards in Tableau and Power BI to track unrealized P&L for 250+ global securities using Python and RBC Assist Pro. • Validated 20K+ investment holdings and Bloomberg Terminal data with 98.3% accuracy to support ~$10M in portfolio balancing.',
@@ -70,7 +70,7 @@ export default function App() {
     },
     { 
       company: 'Innodata Inc.', 
-      role: 'AI Research Data Scientist', 
+      role: 'AI/ML Data Scientist', 
       period: 'April 2025 - September 2025',
       location: 'Ridgefield Park, New Jersey, USA',
       description: '• I wrote monthly QA scripts to audit model outputs, debug errors, and track BI metrics (x4) with Tableau, using Python, SQL, and R. • Processed 200+ AI evaluation tasks daily related to DaaS validation, A/B testing, and GT labelling across >30,000 data samples. • Computed precision@k, recall, and NDCG on ~10K samples to boost ML model accuracy by 15%+ and guide 6 retraining cycles.',
