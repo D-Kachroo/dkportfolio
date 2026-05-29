@@ -79,7 +79,7 @@ export default function App() {
     },
     { 
       company: 'Finlo.AI', 
-      role: 'Financial Research & Strategy Intern', 
+      role: 'Financial Risk & Strategy Intern', 
       period: 'June 2025 - September 2025',
       location: 'Vancouver, British Columbia, Canada',
       description: '• I examined the financial records of ~150 SMBs by calculating EBITDA margins, debt-to-equity (D/E) ratios, liquidity, and ROI metrics. • Developed an AI + ML software with 5K+ data points to evaluate business credit score ratings, using Matplotlib and scikit-learn. • Measured financial risk via 4+ KPIs such as price-to-earnings (P/E), income variance, cash-flow volatility, and market stress tests.',
